@@ -4,5 +4,15 @@
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
-  }
+  },
+  "name": "tuaobra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

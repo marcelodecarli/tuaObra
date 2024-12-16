@@ -37,6 +37,7 @@ main button a{
 }
 
 #login{
+    color: black;
     background-color: #B1BA8E;
 }
 #login:active{
@@ -44,6 +45,7 @@ main button a{
 }
 
 #newUser{
+    color: black;
     background-color: #CDB28A;
 }
 #newUser:active{
