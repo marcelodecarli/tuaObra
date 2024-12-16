@@ -1,0 +1,51 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./body.css);
+@import url(./main.css);
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #F9F4E3;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(#F9F4E3, #F9F4E3, #ffffff);
+    height: 65vh;
+
+}
+
+main button{
+    padding: 15px 18px;
+    width: 50vw;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+main button a{
+    text-decoration: none;
+    color: #000;
+}
+
+#login{
+    background-color: #B1BA8E;
+}
+#login:active{
+    background-color: #c4df59;
+}
+
+#newUser{
+    background-color: #CDB28A;
+}
+#newUser:active{
+    background-color: #c78a30;
+}

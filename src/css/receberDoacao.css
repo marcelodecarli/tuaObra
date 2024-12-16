@@ -1,0 +1,87 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./body.css);
+@import url(./main.css);
+
+
+#buttons {
+    align-items: center;
+}
+
+#buttons button a {
+    text-decoration: none;
+    color: black;
+}
+
+#sair {
+    background-color: #FCC1C1;
+}
+
+#voltar {
+    background-color: #B1BA8E;
+    width: 30%;
+    text-align: center;
+
+}
+
+section {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+section:active {
+    transform: scale(1.1);
+    transition: .2s ease-in;
+}
+
+.conteudo {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo section {
+    width: 150px;
+    margin: 15px;
+    border: solid 1px black;
+}
+
+/* ESTILIZANDO A MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.775);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background: rgb(237, 237, 237);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 70%;
+
+}
+
+.close {
+    align-self: flex-end;
+    color: red;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal-content img {
+    margin-top: 10px;
+    align-self: center;
+}

@@ -1,0 +1,19 @@
+main{
+    background: linear-gradient(#F9F4E3, #F9F4E3, #ffffff);
+    min-height: 65vh;
+
+}
+
+#buttons button{
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    text-align: center;
+}

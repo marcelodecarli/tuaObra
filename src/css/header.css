@@ -1,0 +1,50 @@
+body {
+    position: absolute;
+}
+
+header {
+    height: 25vh;
+    background-color: #D4DDB1;
+    width: 100vw;
+    z-index: 2;
+    border-radius: 0 0 20px 20px;
+    border-bottom-left-radius: 50% 15%;
+    border-bottom-right-radius: 50% 15%;
+    border-bottom: solid 3px;
+}
+
+#container-nome-cliente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: 0 5px 0 0;
+}
+
+#container-nome-cliente img {
+    width: 35px;
+}
+
+#container-nome-cliente #nomeCliente {
+    font-size: 1.2rem;
+}
+
+#imgLogo {
+    display: flex;
+    align-items: end;
+}
+
+#imgLogo h1 {
+    font-size: 2.3rem;
+    margin: 0 -22px 10px -85px;
+    color: #565A5B;
+    font-weight: 800;
+}
+
+#imgLogo img {
+    position: relative;
+    width: 230px;
+    top: -20px;
+    left: 20px;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/queroDoar.css">
+    <title>Tua Obra</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="container-nome-cliente">
+            <p id="nomeCliente">Nome Cliente</p>
+            <img src="../img/mdi--user.png" alt="">
+        </div>
+
+
+        <div id="imgLogo">
+            <img src="../img/tuaObra-removebg-preview.png" alt="">
+            <h1>TuaObra</h1>
+        </div>
+    </header>
+
+    
+    
+
+    <main>
+
+        <form action="submit" method="post" id="formularioDoacao">
+
+            <label for="">MATERIAL</label>
+            <input type="text" id="material">
+            <label for="">QUANTIDADE</label>
+            <input type="text" id="quantidade">
+            <label for="">ESTÁ EMBALADO?</label>
+            <div id="radioButtons">
+                <label for="">SIM</label>
+                <input type="radio" name="" id="sim" value="sim">
+                <label for="">NÃO</label>
+                <input type="radio" name="" id="nao" value="nao">
+            </div>
+            <label for="">ENDEREÇO PARA RETIRADA</label>
+            <input type="text" id="endereco">
+            <label for="">DESCRIÇÃO DO MATERIAL</label>
+            <textarea class="msg" rows="4" id="descricao"></textarea>
+            <label for="">FOTOS DO MATERIAL</label>
+            <input type="file" id="imagens">
+
+        </form>
+
+        <div id="buttons">
+            <a href="./receberDoacao.html"><button id="doar" onclick="salvarDados()">DOAR</button></a>
+            <a href="./telaOpcoes.html"><button id="voltar">VOLTAR</button></a>
+        </div>
+        
+    </main>
+    
+    <footer>
+        <span><a href="">DÚVIDAS?</a></span>
+        <a href="#" id="sairLink">
+            <button id="sairButton">SAIR</button>
+        </a>
+            </footer>
+
+    
+            <script src="../js/script.js"></script>
+            <script src="../scripts/criandoSection.js"></script>
+            <script src="../scripts/criandoModal.js"></script>
+            <script src="../scripts/desconectar.js"></script>
+
+</body>
+
+</html>
