@@ -2,6 +2,7 @@
 @import url(./footer.css);
 @import url(./body.css);
 @import url(./main.css);
+@import url(./button.css);
 
 main {
     display: flex;
@@ -22,7 +23,6 @@ main {
 
 #buttons button a {
     text-decoration: none;
-    color: black;
 }
 
 #doar {

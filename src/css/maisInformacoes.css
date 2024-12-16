@@ -2,6 +2,7 @@
 @import url(./footer.css);
 @import url(./body.css);
 @import url(./main.css);
+@import url(./button.css);
 
 
 #buttons {
@@ -15,7 +16,6 @@
 
 #buttons button a {
     text-decoration: none;
-    color: black;
 }
 
 #voltar {
