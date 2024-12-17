@@ -20,7 +20,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: linear-gradient(#F9F4E3, #F9F4E3, #ffffff);
     height: 65vh;
 
 }

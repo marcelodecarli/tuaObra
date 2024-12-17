@@ -18,7 +18,7 @@
 }
 
 #voltar {
-    background-color: #B1BA8E;
+    background-color: #CDB28A;
     width: 30%;
     text-align: center;
 
@@ -84,4 +84,13 @@ section:active {
 .modal-content img {
     margin-top: 10px;
     align-self: center;
+}
+
+section img{
+    border-radius: 5px;
+}
+
+#modal-imagem{
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
 }
