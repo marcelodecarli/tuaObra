@@ -55,3 +55,20 @@ main{
 #btnCadastrar:active{
     background-color: #c4df59;
 }
+
+
+@media (min-width: 700px) {
+    main {
+        height: 90vh; 
+    }
+
+    .novoUsuario {
+        height: 70vh; /
+    }
+
+    .btn {
+        padding: 15px 25px; 
+    }
+
+
+}
